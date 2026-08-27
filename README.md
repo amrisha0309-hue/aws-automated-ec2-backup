@@ -58,9 +58,9 @@ def lambda_handler(event, context):
 
 ## Screenshots
 
-### EC2 Instance
+ ### IAM Role
 
-![EC2 Instance](screenshots/ec2-instance.png)
+![IAM Role](screenshots/iam-role.png)
 
 ### Lambda Function
 
