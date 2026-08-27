@@ -43,7 +43,7 @@ ec2 = boto3.client('ec2')
 
 def lambda_handler(event, context):
 
-    volume_id = 'YOUR_VOLUME_ID'
+    volume_id = 'vol-0937230e2f44c1bc6'
 
     response = ec2.create_snapshot(
         VolumeId=volume_id,
